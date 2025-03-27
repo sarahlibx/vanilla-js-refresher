@@ -18,7 +18,7 @@ const person = {
     name: 'Sarah',
     age: 35
 };
-console.log(person);
+// console.log(person);
 
 // dot notation -- default choice over bracket notation
 person.name = 'Eric';
@@ -26,17 +26,17 @@ person.name = 'Eric';
 // bracket notation
 let selection = 'name';
 person[selection] = 'Sora';
-console.log(person.name);
+// console.log(person.name);
 
 // reference type: arrays - data structure used to represent a list of items
 let selectedColors = ['red', 'blue'];
 selectedColors[2] = 'green';
-console.log(selectedColors); 
+// console.log(selectedColors); 
 
 // ref types: functions - set of statements that perform tasks or calculates values 
 function greet(name, lastName) {
     // body of the function (statements & logic) with a parameter
-    console.log(`Hello ${name} ${lastName}`);
+    // console.log(`Hello ${name} ${lastName}`);
 }
 // call the function w/arguments
 greet('Kairi', 'Smith');
@@ -46,4 +46,4 @@ function square(number) {
     return number * number;
 }
 
-console.log(square(2));
+// console.log(square(2));
